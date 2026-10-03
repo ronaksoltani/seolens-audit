@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en" data-app="seolens-audit" data-layout="tool">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f7f6">
+  <meta name="description" content="A privacy-first on-page audit. Paste HTML, get a readable checklist, and fix the issues that matter first.">
+  <meta property="og:title" content="SEO Lens — TECHNICAL SEO · LOCAL-FIRST">
+  <meta property="og:description" content="A privacy-first on-page audit. Paste HTML, get a readable checklist, and fix the issues that matter first.">
+  <meta property="og:image" content="preview.svg">
+  <title>SEO Lens — TECHNICAL SEO · LOCAL-FIRST</title>
+  <link rel="icon" href="preview.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="app.js"></script>
+</head>
+<body style="--paper:#f4f7f6;--ink:#17211f;--muted:#6e7975;--accent:#91f2c2;--accent2:#6a9cff">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="announcement"><span>A FREE, LOCAL-FIRST MARKETING WORKBENCH</span><span>SAMPLE CONTENT · NO TRACKING <b>✳</b></span></div>
+  <header class="site-nav"><a class="brand" href="#top" aria-label="SEO Lens home"><span class="brand-mark">◈</span>SEO Lens<small>TOOLKIT</small></a><nav id="main-navigation" aria-label="Main navigation"><a href="#workspace">Workspace</a><a href="#notes">About</a><a class="nav-cta" href="#workspace">Open the tool ↗</a></nav><button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button></header>
+  <main id="main">
+    <section class="tool-hero" id="top"><div><span class="eyebrow"><i class="eyebrow-dot"></i>TECHNICAL SEO · LOCAL-FIRST</span><h1>See the page<br>search engines see.</h1><p>A privacy-first on-page audit. Paste HTML, get a readable checklist, and fix the issues that matter first.</p><div class="tool-trust"><span class="lock-mark">⌑</span><span>Runs in your browser <b>·</b> No account <b>·</b> Your data stays local</span></div></div><div class="tool-hero-side"><div class="metric-orb"><b>LOCAL ONLY</b><span>the pasted HTML stays in this browser</span></div><span class="orb-caption">BUILT FOR CLEARER DECISIONS</span></div></section>
+    <section id="workspace" class="tool-workspace"><div class="tool-grid"><section class="panel"><div class="panel-head"><span class="eyebrow">01 / SOURCE</span><span class="soft-badge">LOCAL ONLY</span></div><label for="source-html">Paste the page HTML</label><textarea id="source-html" rows="13" spellcheck="false" placeholder="Paste HTML here…">&lt;html lang="en"&gt;
+&lt;head&gt;
+  &lt;title&gt;A better homepage&lt;/title&gt;
+  &lt;meta name="description" content="A clear description of this page."&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;A better homepage&lt;/h1&gt;
+  &lt;img src="team.jpg" alt="Our team at work"&gt;
+&lt;/body&gt;
+&lt;/html&gt;</textarea><div class="button-row"><button id="run-audit" class="btn btn--accent">Audit this page ↗</button><button id="clear-audit" class="btn btn--quiet">Clear</button></div><p class="micro-note">This checks the HTML you provide. It does not fetch pages or claim search rankings.</p></section><section class="panel result-panel"><div class="panel-head"><span class="eyebrow">02 / FINDINGS</span><span class="score-badge" id="audit-score">— / 100</span></div><div id="audit-results" aria-live="polite"><div class="empty-state"><span class="empty-icon">⌕</span><h3>Your checklist is ready.</h3><p>Run the audit to see prioritized checks and suggestions.</p></div></div></section></div></section>
+    <section class="notes-section notes-section--tool" id="notes"><div><span class="eyebrow">SCOPE & METHOD</span><h2>A helpful lens, with its limits in view.</h2></div><div class="notes-copy"><p>This small tool makes its inputs and assumptions visible. It runs locally in your browser and never sends the data you enter to an external service.</p><p>Use results as a practical starting point, then check platform documentation, real search results and first-hand research before making business decisions.</p><a href="README.md" class="text-button">Read the project notes ↗</a></div></section>
+  </main>
+  <footer class="site-footer"><a class="brand" href="#top"><span class="brand-mark">✳</span>SEO Lens</a><p>A small, transparent tool for better marketing work.</p><div class="footer-links"><a href="#top">Back to top ↑</a><a href="README.md">Documentation</a><span>Built by Ronak Soltani · 2026</span></div></footer>
+  <div class="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+</body>
+</html>
